@@ -10,8 +10,7 @@ const app = express();
 
 mongoose
   .connect(
-  //  "mongodb+srv://tiennesdm:n5BfiMQw9XNUZfHs@meanstack-srts7.mongodb.net/test?retryWrites=true"
-  "mongodb://localhost:27017/post"
+   "mongodb://localhost:27017/post"
   )
   .then(() => {
     console.log("Connected to database!");
